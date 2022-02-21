@@ -1,0 +1,10 @@
+type BlogPost{
+  title: String!
+  published: String!
+  thumbnail: String!
+  content: String!
+}
+
+type Query {
+  allPosts: [BlogPost!]!
+}
